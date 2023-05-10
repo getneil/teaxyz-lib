@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "strict": true
+  },
+  // ignore all files since the current style deviates from deno's default style.
+  "fmt": {
+    "files": {
+      "exclude": [
+        "./"
+      ]
+    }
+  },
+  "tea": {
+    "dependencies": {
+      "deno.land": "^1.31.1"
+    }
+  },
+  "importMap": "import-map.json"
+}

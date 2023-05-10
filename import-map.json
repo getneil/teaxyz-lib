@@ -1,0 +1,17 @@
+{
+  "imports": {
+    "path": "./src/vendor/Path.ts",
+    "path-utils": "./src/vendor/PathUtils.ts",
+    "types": "./src/types.ts",
+    "hooks": "./src/hooks/index.ts",
+    "hooks/": "./src/hooks/",
+    "prefab": "./src/prefab/index.ts",
+    "prefab/": "./src/prefab/",
+    "deno/": "https://deno.land/std@0.186.0/",
+    "semver": "./src/utils/semver.ts",
+    "utils": "./src/utils/index.ts",
+    "utils/": "./src/utils/",
+    "is-what": "https://deno.land/x/is_what@v4.1.8/src/index.ts",
+    "outdent": "http://deno.land/x/outdent@v0.8.0/mod.ts"
+  }
+}
