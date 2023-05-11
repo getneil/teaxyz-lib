@@ -1,0 +1,20 @@
+{
+  "name": "@teaxyz/lib",
+  "version": "0.1.0",
+  "description": "tea aims to provide packaging primitives. This library is a route to that goal.",
+  "main": "index.js",
+  "scripts": {
+    "build": "deno bundle src/mod.ts index.js",
+    "postinstall": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getneil/teaxyz-lib.git"
+  },
+  "author": "tea inc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/getneil/teaxyz-lib/issues"
+  },
+  "homepage": "https://github.com/getneil/teaxyz-lib#readme"
+}
